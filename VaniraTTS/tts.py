@@ -3,7 +3,7 @@ import numpy as np
 import soundfile as sf
 import onnxruntime as ort
 from vachana_g2p import th2ipa
-from vaniratts.text.eng2tha import transliterator
+from VaniraTTS.text.eng2tha import transliterator
 
 class VaniraTTS:
     def __init__(self, model_id:str = "VIZINTZOR/VaniraTTS", local_path:str = None, device: str = "cpu"):
