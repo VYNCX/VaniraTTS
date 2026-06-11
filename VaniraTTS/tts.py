@@ -60,7 +60,3 @@ class VaniraTTS:
         sf.write(output, audio, sample_rate)
 
         print(f"Audio saved successfully to {output}!")
-
-if __name__ == "__main__":
-    tts = VaniraTTS()
-    tts.infer("สวัสดีค่ะ นี่คือเสียงพูดภาษาไทย",pitch_mul=1.5, volume=1.0)
