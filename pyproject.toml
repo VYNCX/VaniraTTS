@@ -1,0 +1,15 @@
+[project]
+name = "VaniraTTS"
+version = "0.1.0"
+description = "VaniraTTS โมเดล Text-to-Speech (TTS) สำหรับภาษาไทย"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "huggingface_hub",
+    "soundfile",
+    "onnxruntime"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
