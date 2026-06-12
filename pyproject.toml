@@ -7,7 +7,8 @@ requires-python = ">=3.10"
 dependencies = [
     "huggingface_hub",
     "soundfile",
-    "onnxruntime"
+    "onnxruntime",
+    "vachana-g2p
 ]
 
 [build-system]
